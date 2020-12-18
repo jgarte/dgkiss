@@ -1,5 +1,0 @@
-#!/bin/sh -e
-
-./configure --enable-256-color
-make
-make DESTDIR="$1" install
