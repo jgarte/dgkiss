@@ -1,0 +1,4 @@
+#!/bin/sh -e
+./configure --prefix=/usr --enable-256-color
+make
+make DESTDIR="$1" install

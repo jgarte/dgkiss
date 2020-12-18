@@ -1,0 +1,11 @@
+#!/bin/sh -e
+meson build
+ninja -C build
+mkdir -p "$1/usr/lib/pkgconfig"
+mkdir -p "$1/usr/include/slirp"
+mv "build/libslirp.so" "$1/usr/lib/libslirp.so"
+mv "build/libslirp.so.0" "$1/usr/lib/libslirp.so.0"
+mv "build/libslirp.so.0.2.3" "$1/usr/lib/libslirp.so.0.2.3"
+mv "build/meson-private/slirp.pc" "$1/usr/lib/pkgconfig/slirp.pc"
+mv "build/libslirp-version.h" "$1/usr/include/slirp/libslirp-version.h"
+mv "src/libslirp.h" "$1/usr/include/slirp/libslirp.h"

@@ -1,0 +1,12 @@
+fontconfig
+freetype-harfbuzz
+libICE
+libX11
+libXaw
+libXext
+libXft
+libXinerama
+libXmu
+libXpm
+libXt
+ncurses

@@ -1,0 +1,11 @@
+#!/bin/sh -e
+mkdir -p "$1/usr/java"
+mkdir -p "$1/usr/java/openjdk11-hotspot-bin/bin"
+cp bin/* "$1/usr/java/openjdk11-hotspot-bin/bin"
+cp -r conf "$1/usr/java/openjdk11-hotspot-bin/"
+cp -r include "$1/usr/java/openjdk11-hotspot-bin/"
+cp -r jmods "$1/usr/java/openjdk11-hotspot-bin/"
+cp -r legal "$1/usr/java/openjdk11-hotspot-bin/"
+cp -r lib "$1/usr/java/openjdk11-hotspot-bin/"
+mkdir -p "$1/usr/share/man/man1"
+cp man/man1/* "$1/usr/share/man/man1"

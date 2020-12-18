@@ -1,0 +1,8 @@
+alsa-lib
+glibc
+libX11
+libXext
+libXi
+libXrender
+libXtst
+zlib
