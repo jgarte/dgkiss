@@ -1,0 +1,6 @@
+#!/bin/sh -e
+./configure --prefix=/usr --mandir=/usr/share/man
+make all docs
+make DESTDIR="$1" install
+install -D chrony.conf "$1/etc/chrony.conf"
+install -D run "$1/etc/sv/chronyd/run"
