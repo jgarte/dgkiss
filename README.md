@@ -5,9 +5,9 @@ My personal [GKISS](https://github.com/gkisslinux/grepo) repository.
 Main highlights so far:
 
 - melonDS
-- chrony
-- openjdk11-hotspot-bin
 - MultiMC
+- openjdk11-hotspot-bin
+- chrony
 
 On the "eventually" list, not done yet:
 

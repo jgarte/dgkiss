@@ -1,0 +1,13 @@
+expat
+gcc
+libX11
+libXdamage
+libXext
+libXfixes
+libXxf86vm
+libdrm
+libelf
+libxcb
+libxshmfence
+llvm
+zlib
