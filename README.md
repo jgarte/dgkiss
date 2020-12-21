@@ -7,10 +7,10 @@ Main highlights so far:
 - melonDS
 - chrony
 - openjdk11-hotspot-bin
+- MultiMC
 
 On the "eventually" list, not done yet:
 
-- MultiMC (annoying path stuff, will figure it out)
 - wine (lots of dependencies; of these libunwind is done)
 
 On the "maybe" list, may never be done:

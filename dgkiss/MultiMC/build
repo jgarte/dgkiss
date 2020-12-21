@@ -1,0 +1,11 @@
+#!/bin/sh -e
+git submodule init
+git submodule update
+mkdir -p "$1/$HOME/.multimc"
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX="$1/HOME/.multimc" ..
+make install
+cd ..
+mkdir -p "$1/usr/bin/"
+echo -e "#!/bin/sh -e\ncd \$HOME/.multimc && ./MultiMC" >"$1/usr/bin/MultiMC"
