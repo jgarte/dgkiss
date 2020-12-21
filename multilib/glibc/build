@@ -1,0 +1,10 @@
+#!/bin/sh -e
+export CC="gcc -m32"
+export CXX="g++ -m32"
+export CFLAGS="$CFLAGS -march=i686"
+export CXXFLAGS="$CXXFLAGS -march=i686"
+mkdir build
+cd build
+../configure --host=i686-linux-gnu --build=i686-linux-gnu --prefix=/usr --libdir=/lib32 --bindir=/bin32
+make
+make DESTDIR="$1" install
