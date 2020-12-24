@@ -1,9 +1,0 @@
-#!/bin/sh -e
-mkdir build
-cd build
-cmake ..
-make
-make DESTDIR="$1" install
-echo "I can't figure out prefix for FAudio, so ignore the above paths; I just mv them."
-mv "$1"/usr/local/* "$1"/usr/
-rm -rf "$1/usr/local/"

@@ -1,0 +1,18 @@
+#!/bin/sh -e
+export CFLAGS="$CFLAGS -fPIC"
+./configure --prefix=/usr --enable-single
+make
+make DESTDIR="$1" install
+make clean
+./configure --prefix=/usr
+make
+make DESTDIR="$1" install
+make clean
+./configure --prefix=/usr --enable-long-double
+make
+make DESTDIR="$1" install
+make clean
+./configure --prefix=/usr --enable-quad-precision
+make
+make DESTDIR="$1" install
+make clean
