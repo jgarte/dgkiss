@@ -1,1 +1,6 @@
-sudo chmod +x /usr/bin/MultiMC
+#!/bin/sh -e
+if test "$KISS_SU" = "su"; then
+  $KISS_SU -c "chmod +x /usr/bin/MultiMC"
+else
+  $KISS_SU chmod +x /usr/bin/MultiMC
+fi

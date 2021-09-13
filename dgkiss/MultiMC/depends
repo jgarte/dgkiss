@@ -1,3 +1,4 @@
 gcc
 qt5
+qt5-wayland
 zlib

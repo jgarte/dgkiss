@@ -1,0 +1,2 @@
+#!/bin/sh -e
+echo -e "Please put the following in your ~/.bashrc or ~/.profile:\n\nexport JAVA_HOME=/usr/java/openjdk16-hotspot-bin\nPATH=$PATH:$JAVA_HOME/bin\n"
