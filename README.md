@@ -9,7 +9,11 @@ Some highlights:
 - openjdk11-hotspot-bin
 - openjdk16-hotspot-bin
 
-things I need to get around to fixing, or are in an unknown state:
+Things I need to get around to fixing, or are in an unknown state:
 
 - libslirp
-- melonDS
+- melonDS (needs libslirp to be fixed up, needs libglvnd to be added)
+- tcc
+- fftw
+- MultiMC (needs GLFW to be fixed up)
+- glfw
