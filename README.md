@@ -8,6 +8,7 @@ Some highlights:
 - chrony
 - openjdk11-hotspot-bin
 - openjdk16-hotspot-bin
+- glfw (+ Minecraft patches)
 
 Things I need to get around to fixing, or are in an unknown state:
 
@@ -15,5 +16,4 @@ Things I need to get around to fixing, or are in an unknown state:
 - melonDS (needs libslirp to be fixed up, needs libglvnd to be added)
 - tcc
 - fftw
-- MultiMC (needs GLFW to be fixed up)
-- glfw
+- MultiMC (GLFW is patched for this, but I don't know how to get libGL yet)
