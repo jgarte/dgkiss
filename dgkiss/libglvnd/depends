@@ -1,0 +1,9 @@
+meson make
+xorgproto
+xcb-proto
+xorg-util-macros
+libXau
+xtrans
+libxcb
+libX11
+libXext
