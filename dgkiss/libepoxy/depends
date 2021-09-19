@@ -1,0 +1,5 @@
+samurai make
+meson make
+libX11
+libglvnd
+mesa

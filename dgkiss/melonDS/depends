@@ -4,3 +4,4 @@ libglvnd
 libslirp
 qt5
 sdl2
+libepoxy
